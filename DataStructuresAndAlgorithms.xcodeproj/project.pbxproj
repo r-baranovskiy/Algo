@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4D466C052C18F03E003B8E5B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D466C042C18F03E003B8E5B /* main.swift */; };
+		4D917D672C18F291007F331F /* LinkedList in Frameworks */ = {isa = PBXBuildFile; productRef = 4D917D662C18F291007F331F /* LinkedList */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D917D672C18F291007F331F /* LinkedList in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +46,7 @@
 			children = (
 				4D466C032C18F03E003B8E5B /* DataStructuresAndAlgorithms */,
 				4D466C022C18F03E003B8E5B /* Products */,
+				4D917D652C18F291007F331F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,8 +61,8 @@
 		4D466C032C18F03E003B8E5B /* DataStructuresAndAlgorithms */ = {
 			isa = PBXGroup;
 			children = (
-				4D917D632C18F133007F331F /* DataStructures */,
 				4D466C042C18F03E003B8E5B /* main.swift */,
+				4D917D632C18F133007F331F /* DataStructures */,
 			);
 			path = DataStructuresAndAlgorithms;
 			sourceTree = "<group>";
@@ -70,6 +73,13 @@
 				4D917D642C18F150007F331F /* LinkedList */,
 			);
 			path = DataStructures;
+			sourceTree = "<group>";
+		};
+		4D917D652C18F291007F331F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -88,6 +98,9 @@
 			dependencies = (
 			);
 			name = DataStructuresAndAlgorithms;
+			packageProductDependencies = (
+				4D917D662C18F291007F331F /* LinkedList */,
+			);
 			productName = DataStructuresAndAlgorithms;
 			productReference = 4D466C012C18F03E003B8E5B /* DataStructuresAndAlgorithms */;
 			productType = "com.apple.product-type.tool";
@@ -299,6 +312,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4D917D662C18F291007F331F /* LinkedList */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = LinkedList;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4D466BF92C18F03E003B8E5B /* Project object */;
 }
