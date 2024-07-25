@@ -9,11 +9,21 @@
 /* Begin PBXBuildFile section */
 		4D287B7B2C1F6B2600B43BB1 /* StackAndQueue in Frameworks */ = {isa = PBXBuildFile; productRef = 4D287B7A2C1F6B2600B43BB1 /* StackAndQueue */; };
 		4D466C052C18F03E003B8E5B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D466C042C18F03E003B8E5B /* main.swift */; };
+		4D8CBCD52C52F65E00ADD15D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8CBCD42C52F65E00ADD15D /* main.swift */; };
 		4D917D672C18F291007F331F /* LinkedList in Frameworks */ = {isa = PBXBuildFile; productRef = 4D917D662C18F291007F331F /* LinkedList */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		4D466BFF2C18F03E003B8E5B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		4D8CBCD02C52F65E00ADD15D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -28,6 +38,8 @@
 		4D287B792C1F6B1000B43BB1 /* StackAndQueue */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = StackAndQueue; sourceTree = "<group>"; };
 		4D466C012C18F03E003B8E5B /* DataStructuresAndAlgorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructuresAndAlgorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D466C042C18F03E003B8E5B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		4D8CBCD22C52F65E00ADD15D /* LeetcodeEasy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetcodeEasy; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D8CBCD42C52F65E00ADD15D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		4D917D642C18F150007F331F /* LinkedList */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = LinkedList; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -41,6 +53,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4D8CBCCF2C52F65E00ADD15D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -48,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				4D466C032C18F03E003B8E5B /* DataStructuresAndAlgorithms */,
+				4D8CBCD32C52F65E00ADD15D /* LeetcodeEasy */,
 				4D466C022C18F03E003B8E5B /* Products */,
 				4D917D652C18F291007F331F /* Frameworks */,
 			);
@@ -57,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				4D466C012C18F03E003B8E5B /* DataStructuresAndAlgorithms */,
+				4D8CBCD22C52F65E00ADD15D /* LeetcodeEasy */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -68,6 +89,14 @@
 				4D917D632C18F133007F331F /* DataStructures */,
 			);
 			path = DataStructuresAndAlgorithms;
+			sourceTree = "<group>";
+		};
+		4D8CBCD32C52F65E00ADD15D /* LeetcodeEasy */ = {
+			isa = PBXGroup;
+			children = (
+				4D8CBCD42C52F65E00ADD15D /* main.swift */,
+			);
+			path = LeetcodeEasy;
 			sourceTree = "<group>";
 		};
 		4D917D632C18F133007F331F /* DataStructures */ = {
@@ -110,6 +139,23 @@
 			productReference = 4D466C012C18F03E003B8E5B /* DataStructuresAndAlgorithms */;
 			productType = "com.apple.product-type.tool";
 		};
+		4D8CBCD12C52F65E00ADD15D /* LeetcodeEasy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D8CBCD62C52F65E00ADD15D /* Build configuration list for PBXNativeTarget "LeetcodeEasy" */;
+			buildPhases = (
+				4D8CBCCE2C52F65E00ADD15D /* Sources */,
+				4D8CBCCF2C52F65E00ADD15D /* Frameworks */,
+				4D8CBCD02C52F65E00ADD15D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeetcodeEasy;
+			productName = LeetcodeEasy;
+			productReference = 4D8CBCD22C52F65E00ADD15D /* LeetcodeEasy */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -121,6 +167,9 @@
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
 					4D466C002C18F03E003B8E5B = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					4D8CBCD12C52F65E00ADD15D = {
 						CreatedOnToolsVersion = 15.4;
 					};
 				};
@@ -139,6 +188,7 @@
 			projectRoot = "";
 			targets = (
 				4D466C002C18F03E003B8E5B /* DataStructuresAndAlgorithms */,
+				4D8CBCD12C52F65E00ADD15D /* LeetcodeEasy */,
 			);
 		};
 /* End PBXProject section */
@@ -149,6 +199,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D466C052C18F03E003B8E5B /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D8CBCCE2C52F65E00ADD15D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D8CBCD52C52F65E00ADD15D /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +353,28 @@
 			};
 			name = Release;
 		};
+		4D8CBCD72C52F65E00ADD15D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X6QCC36TXK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4D8CBCD82C52F65E00ADD15D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X6QCC36TXK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -312,6 +392,15 @@
 			buildConfigurations = (
 				4D466C092C18F03E003B8E5B /* Debug */,
 				4D466C0A2C18F03E003B8E5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D8CBCD62C52F65E00ADD15D /* Build configuration list for PBXNativeTarget "LeetcodeEasy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D8CBCD72C52F65E00ADD15D /* Debug */,
+				4D8CBCD82C52F65E00ADD15D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
